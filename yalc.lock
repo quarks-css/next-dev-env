@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "@quarks-css/quarks": {
+      "signature": "4971525b80f18883fae3d79674515f81",
+      "file": true
+    }
+  }
+}

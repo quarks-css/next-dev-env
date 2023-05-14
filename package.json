@@ -4,12 +4,13 @@
   "homepage": "https://github.com/quarks-css",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev -p 3003",
+    "dev": "next dev -p 3002",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@quarks-css/quarks": "file:.yalc/@quarks-css/quarks",
     "next": "13.4.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -20,6 +21,7 @@
     "@types/react-dom": "^18.2.4",
     "eslint": "^8.40.0",
     "eslint-config-next": "^13.4.2",
+    "prettier": "^2.8.8",
     "typescript": "^5.0.4"
   }
 }

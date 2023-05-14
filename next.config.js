@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  webpack: (config, options) => {
+    config.snapshot.managedPaths = [];
+    config.resolve.symlinks = false;
+    config.watchOptions.followSymlinks = true;
 
-module.exports = nextConfig
+    return config;
+  },
+};
+
+module.exports = nextConfig;
